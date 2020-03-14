@@ -1,0 +1,84 @@
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+/* GİRİŞ ÖZELLİKLERİ */
+h1 {
+  font-size: 3rem;
+font-weight: bolder;
+font-family: 'Open Sans Condensed', sans-serif;
+color:#1e2022;
+}
+
+
+
+
+hr {
+
+  border-bottom: 2px solid #1e2022;
+  width: 50%;
+}
+
+.kapak {
+  font-size: 2rem;
+  /* font-weight: bolder; */
+  font-family: 'Roboto Condensed', sans-serif;
+color:#1e2022;
+  }
+
+.jumbotron {
+  /* The image used */
+  background-image: url('Kocaeli Stadyum 1 - transparent.png');
+
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+
+
+  margin: 0px;
+
+}
+
+.navbar-nav.navbar-center {
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+
+}
+
+
+
+
+.navbar {
+background-color: #f0f5f9;
+
+}
+
+.nav-link {
+
+color:black;
+font-size: 1rem;
+font-weight: 700;
+
+
+}
+
+.Özet {
+height: 1000px;
+background-color: #f0f5f9;
+color: #52616b;
+}
+
+.Deneyim {
+height: 1000px;
+background-color: #f0f5f9;
+}
