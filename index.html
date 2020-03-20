@@ -44,16 +44,19 @@
 
 
   <!-- GİRİŞ -->
-  <div class="jumbotron d-flex align-items-center min-vh-100">
+  <div id="Giris" class="jumbotron d-flex align-items-center min-vh-100">
 
 
     <div class="container text-center kapak">
-      <h1>UFUK EMRE TUTER</h1>
-      <hr>
-      <p>Interactive Resume</p>
-      <br />
-      <br />
-      <a class="nav-link" href="#Özet"><i class="fas fa-arrow-down faa-falling animated faa-slow fa-4x "></i></a>
+      <div class="col">
+        <h1>UFUK EMRE TUTER</h1>
+        <hr>
+        <p>Interactive Resume</p>
+        <br />
+        <br />
+        <a class="nav-link" href="#Özet"><i class="fas fa-arrow-down faa-falling animated faa-slow fa-4x "></i></a>
+      </div>
+
 
     </div>
   </div>
@@ -64,22 +67,19 @@
 
 
   <!-- NAVBAR -->
-  <nav class="navbar sticky-top navbar-expand-lg ">
-    <!-- <a class="navbar-brand navbar-center" href="#">
-      <img src="D:\UET\UET Web Development\UET Interactive CV\Imagaes\Logo-Nav-Bar.png" width="50" height="50" alt="Logo">
-    </a> -->
+  <nav class="navbar sticky-top navbar-expand-sm ">
 
 
     <ul class="navbar-nav navbar-center align-items-center">
 
       <li class="nav-item ">
-        <a class="nav-link" href="#Özet"><img src="D:\UET\UET Web Development\UET Interactive CV\Imagaes\Logo-Nav-Bar.png" width="50" height="50" alt="Logo"></a>
+        <a class="nav-link" href="#Giris"><img src="Imagaes\Logo-Nav-Bar.png" width="50" height="50" alt="Logo"></a>
       </li>
       <li class="nav-item ">
         <a class="nav-link" href="#Özet">Profile </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Experience</a>
+        <a class="nav-link" href="#Deneyim">Experience</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Abilities</a>
@@ -102,23 +102,96 @@
   <!-- PROFİL ÖZETİ -->
 
   <div id="Özet" class="Özet">
-    <h1>PROFİL ÖZETİ</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <div class="container">
+      <div class=" col-center">
+        <h2>PROFILE</h2>
+
+        <hr class="CV-hr">
+        <!-- <p>I'am a civil engineer. bla bla</p> -->
+
+
+        <br />
+        <h3>I'am a civil engineer. bla bla</h3>
+        <br />
+        <br />
+      </div>
+
+
+
+
+
+      <!-- <div class="row"> -->
+
+      <img class="Profil-Foto" src="Imagaes\Profil Foto.png" width="300" height="300" alt="Profil Foto">
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>Lorem ipsum dolor sit amet, ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>Lorem ipsum dolor sit amet, ea commodo consequat. Duis aute
+        irure dolor in reprehenderit in voluptate velit esse in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>Lorem ipsum dolor sit amet, ea commodo consequat. Duis aute in culpa qui officia deserunt mollit anim id est .</p>
+
+      <!-- <div class="row"> -->
+
+      <div class="row">
+        <div class="col col-center">
+          <p>yaş: bla bla</p>
+        </div>
+        <div class="col col-center">
+          <p>bla bla: bla bla</p>
+        </div>
+        <div class="col col-center">
+          <p>bla bla: bla bla</p>
+        </div>
+        <div class="col col-center">
+          <p>bla bla: bla bla</p>
+        </div>
+        <div class="col col-center">
+          <p>bla bla: bla bla</p>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="col col-center">
+        <hr class="CV-hr">
+        <p>latince bla bla sequat. Duis aute in c</p>
+        <p>ingilizce bla bla lor in </p>
+        <hr class="CV-hr">
+      </div>
+
+    </div>
+
   </div>
+
+
+
+
 
 
 
 
   <!-- DENEYİM TIMELINE -->
 
-  <div class="Deneyim">
-    <h1>DENEYİM TİMELINE</h1>
+  <div id="Deneyim" class="Deneyim">
+    <div class="container">
+      <div class="col-center">
+        <h2>Experience</h1>
+      </div>
+      <br />
+      <br />
+      <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=16ixLOSKGNzmvJZ_lZaFzW30N-V-F4sg6p7ET-d89Rwc&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen
+        allowfullscreen frameborder='0'></iframe>
+    </div>
+
+
   </div>
 
 
 
 
-
+<p>asdasdafasfasdfasd</p>
 
 
 

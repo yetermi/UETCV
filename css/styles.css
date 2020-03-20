@@ -73,12 +73,54 @@ font-weight: 700;
 }
 
 .Özet {
-height: 1000px;
+
 background-color: #f0f5f9;
 color: #52616b;
+text-align: justify;
+padding-top: 10rem;
+
+
+}
+
+.CV-hr {
+  border-bottom: 2px solid #52616b;
+  width: 50%;
+
+}
+
+.Profil-Foto {
+  border-radius: 50%;
+  float:left;
+  margin-right: 8rem;
+  shape-outside: circle();
+}
+
+.container {
+  width: 50%;
+  padding-bottom: 1rem;
+}
+
+.col-right {
+  text-align: right;
+}
+
+.col-left {
+  text-align: left;
+}
+
+.col-center {
+  text-align: center;
 }
 
 .Deneyim {
-height: 1000px;
-background-color: #f0f5f9;
+
+
+  background-color: #f0f5f9;
+  color: #52616b;
+  text-align: justify;
+  padding-top: 10rem;
+  padding-bottom: 25rem;
+  /* padding-bottom: 3rem; */
+
+
 }
