@@ -93,6 +93,7 @@ hr {
 
 .col-center {
   text-align: center;
+
 }
 
 .Deneyim {
@@ -191,7 +192,50 @@ hr {
 
 }
 
-/* .carousel-inner {
-height: 500px;
-width: 750px;
-} */
+
+.Projects {
+  /* height: 3000px; */
+  background-color: #f0f5f9;
+  color: #52616b;
+  text-align: justify;
+  padding-top: 10rem;
+}
+
+.card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+width: 90%;
+}
+
+.Contact {
+  /* height: 3000px; */
+  background-color: #52616b;
+  color: #f0f5f9;
+  text-align: justify;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+#Contact a {
+  color: #f0f5f9;
+
+  display: table;
+  text-decoration: none;
+
+}
+
+#Contact a:hover {
+  color: yellow;
+  text-decoration: none;
+}
+
+#Contact span {
+display: table-cell;
+vertical-align: middle;
+}
+
+#Contact i {
+  font-size: 36px;
+  margin: 10px;
+}
