@@ -2,21 +2,15 @@ html {
   scroll-behavior: smooth;
 }
 
-
-
 /* GİRİŞ ÖZELLİKLERİ */
 h1 {
   font-size: 3rem;
-font-weight: bolder;
-font-family: 'Open Sans Condensed', sans-serif;
-color:#1e2022;
+  font-weight: bolder;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #1e2022;
 }
 
-
-
-
 hr {
-
   border-bottom: 2px solid #1e2022;
   width: 50%;
 }
@@ -25,79 +19,68 @@ hr {
   font-size: 2rem;
   /* font-weight: bolder; */
   font-family: 'Roboto Condensed', sans-serif;
-color:#1e2022;
-  }
+  color: #1e2022;
+}
 
 .jumbotron {
   /* The image used */
   background-image: url('Kocaeli Stadyum 1 - transparent.png');
-
-
   /* Full height */
   height: 100%;
-
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-
-
   margin: 0px;
-
 }
 
 .navbar-nav.navbar-center {
-margin-left: auto;
-margin-right: auto;
-left: 0;
-right: 0;
-
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
 }
 
-
-
-
 .navbar {
-background-color: #f0f5f9;
-
+  background-color: #f0f5f9;
+  padding-bottom: 0px;
 }
 
 .nav-link {
-
-color:black;
-font-size: 1rem;
-font-weight: 700;
-
-
+  color: black;
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 .Özet {
-
-background-color: #f0f5f9;
-color: #52616b;
-text-align: justify;
-padding-top: 10rem;
-
-
+  background-color: #f0f5f9;
+  color: #52616b;
+  text-align: justify;
+  padding-top: 10rem;
 }
 
 .CV-hr {
   border-bottom: 2px solid #52616b;
   width: 50%;
-
 }
 
 .Profil-Foto {
   border-radius: 50%;
-  float:left;
+  float: left;
   margin-right: 8rem;
   shape-outside: circle();
 }
 
-.container {
+.container-fluid {
   width: 50%;
   padding-bottom: 1rem;
+}
+
+@media (max-width: 992px) {
+  .container-fluid {
+    width: 95%;
+  }
 }
 
 .col-right {
@@ -113,14 +96,102 @@ padding-top: 10rem;
 }
 
 .Deneyim {
-
-
   background-color: #f0f5f9;
   color: #52616b;
   text-align: justify;
   padding-top: 10rem;
-  padding-bottom: 25rem;
+  /* padding-bottom: 25rem; */
   /* padding-bottom: 3rem; */
+}
 
+.Abilities {
+  background-color: #f0f5f9;
+  color: #52616b;
+  text-align: justify;
+  padding-top: 10rem;
+}
+
+.row-skill {
+  vertical-align: middle;
+  padding: 7px 0;
+}
+
+.row-skill:hover {
+  background-color: yellow;
+  /* vertical-align: middle; */
+}
+
+.skill-name {
+  position: absolute;
+  left: 1rem;
+}
+
+.Certificates {
+  /* height: 3000px; */
+  background-color: #f0f5f9;
+  color: #52616b;
+  text-align: justify;
+  padding-top: 10rem;
+}
+
+.certificate-img {
+  height: 230px;
+  width: 300px;
+  padding-bottom: 20px;
+}
+
+.img-container {
+  height: 230px;
+  width: 300px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.img-container:hover .certificate-img {
+  opacity: 0.5;
+}
+
+.img-container:hover .img-content {
+  visibility: visible;
+}
+
+.img-content {
+  visibility: hidden;
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  /* Grey text */
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 60px;
+  width: 60px;
+  filter: invert(70%);
+}
+
+.carousel-img {
+  height: 550px;
+  width: 800px;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.carousel-content {
+  background-color: yellow;
+  text-align: center;
+  color: black;
+  width: 100%;
+  margin-top: 20px;
 
 }
+
+/* .carousel-inner {
+height: 500px;
+width: 750px;
+} */
