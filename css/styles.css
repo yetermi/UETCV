@@ -10,6 +10,16 @@ h1 {
   color: #1e2022;
 }
 
+@media only screen and (max-width: 768px)   {
+
+  h1 {
+    font-size: 5rem;
+
+  }
+
+  }
+
+
 hr {
   border-bottom: 2px solid #1e2022;
   width: 50%;
