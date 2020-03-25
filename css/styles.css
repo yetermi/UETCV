@@ -10,14 +10,8 @@ h1 {
   color: #1e2022;
 }
 
-@media only screen and (max-width: 768px)   {
 
-  h1 {
-    font-size: 5rem;
 
-  }
-
-  }
 
 
 hr {
@@ -87,11 +81,11 @@ hr {
   padding-bottom: 1rem;
 }
 
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   .container-fluid {
     width: 95%;
   }
-}
+} */
 
 .col-right {
   text-align: right;
@@ -148,12 +142,14 @@ hr {
 .certificate-img {
   height: 230px;
   width: 300px;
+
   padding-bottom: 20px;
 }
 
 .img-container {
   height: 230px;
   width: 300px;
+
   padding-bottom: 20px;
   position: relative;
 }
@@ -248,4 +244,56 @@ vertical-align: middle;
 #Contact i {
   font-size: 36px;
   margin: 10px;
+}
+
+#profile-photo {
+
+
+  width:300px;
+   height:300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+.Özet {
+  /* background-color: yellow;
+  color: yellow; */
+}
+
+.container-fluid{
+  width: 95%;
+}
+
+/* .nav-link {
+  font-size: 0.5rem;
+} */
+
+#Projects .col-sm {
+  margin-bottom: 30px;
+}
+
+.Özet {
+  padding-top: 3rem;
+}
+
+#profile-photo {
+
+
+  width:200px;
+   height:200px;
+}
+
 }
